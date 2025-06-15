@@ -1,6 +1,5 @@
-matplotlib.pyplot
+matplotlib
 datetime
-os
 numpy
 pandas
 scikit-learn
