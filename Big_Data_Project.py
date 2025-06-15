@@ -1,3 +1,5 @@
+#This code can be runned both on GitHub Codespace and Google Colab
+
 # Script_Random_Forest_NO_LASSO
 
 import pandas as pd
@@ -420,4 +422,4 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 plt.savefig(os.path.join(LOG_DIR, "lasso_rf_metrics_vs_C.png"))
-ptplt.close()
+plt.close()
